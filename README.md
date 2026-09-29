@@ -1,4 +1,4 @@
-# Resume Workspace — 2026
+# Get a Job Bot
 
 A structured snippet library for generating tailored resumes for job postings.
 
