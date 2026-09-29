@@ -1,0 +1,17 @@
+{
+  "name": "2026",
+  "version": "1.0.0",
+  "description": "A structured snippet library for generating tailored resumes for job postings.",
+  "main": "index.js",
+  "scripts": {
+    "download": "node scripts/download-skills.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "docx": "^9.7.1",
+    "mammoth": "^1.12.0"
+  }
+}

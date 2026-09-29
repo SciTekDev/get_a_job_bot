@@ -1,0 +1,33 @@
+node_modules/
+
+# Personal resume source files; keep the folder placeholder tracked.
+/old_resumes/*
+!/old_resumes/placeholder.txt
+
+# Locally populated resume snippets; keep each folder's README template.
+/work-experience/*.md
+!/work-experience/README.md
+/certifications/*.md
+!/certifications/README.md
+/accomplishments/*.md
+!/accomplishments/README.md
+/skills/*.md
+!/skills/README.md
+/education/*.md
+!/education/README.md
+/projects/*.md
+!/projects/README.md
+
+# Per-application job postings and generated documents.
+/job_applications/*/job_description.md
+/job_applications/*/resume.md
+/job_applications/*/cover_letter.md
+
+# Local contact details (the tracked template should contain placeholders only).
+#/.github/skills/resume-builder/assets/contact.md
+
+# Downloaded third-party skills; fetch locally with `npm run download`.
+/.github/skills/docx/
+/.github/skills/pdf/
+/.github/skills/skill-creator/
+/.github/skills/doc-coauthoring/
